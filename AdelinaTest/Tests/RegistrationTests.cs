@@ -1,12 +1,11 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using AdelinaTest.Base;
 using NUnit.Framework;
 using OpenQA.Selenium;
 
-namespace AdelinaTest
+namespace AdelinaTest.Tests
 {
     [TestFixture]
-    public class RegistrationTests : Basic
+    public class RegistrationTests : TestBase
     {
         [Test]
         public void TestMethod1()
